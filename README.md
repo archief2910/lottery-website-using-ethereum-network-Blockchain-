@@ -1,2 +1,4 @@
-# This project actually takes players money and by using SHA3 algorithm and through our manipulation with it predicts the winner.
-# I have used Sepolia test network for its working also I have used ganche and mocha for test running of this contract through custom boilerplate.
+This project involves a decentralized lottery application built on the Ethereum blockchain. The application allows players to participate by sending their Ether (cryptocurrency) to a smart contract. The contract utilizes the SHA3 algorithm to generate a random winner among the registered players. The contract is deployed and tested on the Sepolia test network using Ganache, a local blockchain emulator, and Mocha, a testing framework for Ethereum projects.
+The smart contract is written in Solidity version 0.4.17 and includes two main functions:
+1. Entering the Lottery: Players can participate in the lottery by sending their Ether to the smart contract. This action registers them as participants and adds their Ether to the contract's balance.
+2. Getting the Addresses of Participants: The contract includes a function that allows anyone to retrieve the addresses of the players who have registered for the current lottery round.
