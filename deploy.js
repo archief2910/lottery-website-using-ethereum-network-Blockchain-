@@ -4,9 +4,9 @@ const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
   '',
-  // remember to change this to your own phrase!
+  // remember to change this to your own phrase!(METAMASK  PHRASE)
   ''
-  // remember to change this to your own endpoint!
+  // remember to change this to your own endpoint! (API KEY)
 );
 const web3 = new Web3(provider);
 
